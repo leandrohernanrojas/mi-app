@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "nombre": "Almohada de Espuma Viscoelástica",
+        "precio": 25.99,
+        "imagen": "https://dormitienda.com/wp-content/uploads/ViscoFirme.jpg",
+        "descripcion": "Almohada ergonómica con tecnología de espuma viscoelástica para un descanso óptimo.",
+        "stock": 50,
+        "categoria": "Hogar"
+    },
+    {
+        "id": 2,
+        "nombre": "Sofá Modular de Tela",
+        "precio": 499.99,
+        "imagen": "https://www.ikea.com/es/es/images/products/kivik-sofa-modular.jpg",
+        "descripcion": "Sofá cómodo y moderno con diseño modular y tela resistente.",
+        "stock": 10,
+        "categoria": "Hogar"
+    },
+    {
+        "id": 3,
+        "nombre": "Set de Cuchillos de Cocina",
+        "precio": 79.99,
+        "imagen": "https://www.wmf.com/media/catalog/product/set-cuchillos.jpg",
+        "descripcion": "Juego de cuchillos de acero inoxidable con soporte magnético.",
+        "stock": 40,
+        "categoria": "Hogar"
+    },
+    {
+        "id": 4,
+        "nombre": "Mesa de Comedor de Madera",
+        "precio": 299.99,
+        "imagen": "https://www.ikea.com/es/es/images/products/mesa-madera.jpg",
+        "descripcion": "Mesa de comedor robusta hecha de madera maciza para 6 personas.",
+        "stock": 8,
+        "categoria": "Hogar"
+    },
+    {
+        "id": 5,
+        "nombre": "Camiseta de Algodón",
+        "precio": 12.99,
+        "imagen": "https://www.hm.com/content/camiseta-basica-algodon.jpg",
+        "descripcion": "Camiseta básica de algodón 100%, disponible en varios colores.",
+        "stock": 100,
+        "categoria": "Ropa"
+    },
+    {
+        "id": 6,
+        "nombre": "Pantalón Vaquero Slim Fit",
+        "precio": 39.99,
+        "imagen": "https://www.zara.com/es/images/pantalon-slim-fit.jpg",
+        "descripcion": "Pantalón vaquero ajustado con un diseño moderno y cómodo.",
+        "stock": 30,
+        "categoria": "Ropa"
+    },
+    {
+        "id": 7,
+        "nombre": "Chaqueta Impermeable",
+        "precio": 59.99,
+        "imagen": "https://www.decathlon.es/chaqueta-impermeable.jpg",
+        "descripcion": "Chaqueta ligera e impermeable, ideal para días lluviosos.",
+        "stock": 20,
+        "categoria": "Ropa"
+    },
+    {
+        "id": 8,
+        "nombre": "Zapatillas Deportivas",
+        "precio": 49.99,
+        "imagen": "https://www.nike.com/zapatillas-deportivas.jpg",
+        "descripcion": "Zapatillas cómodas y resistentes para uso deportivo o casual.",
+        "stock": 50,
+        "categoria": "Ropa"
+    },
+    {
+        "id": 9,
+        "nombre": "Auriculares Inalámbricos Bluetooth",
+        "precio": 59.99,
+        "imagen": "https://www.sony.com/auriculares-bluetooth.jpg",
+        "descripcion": "Auriculares Bluetooth con cancelación de ruido y batería de larga duración.",
+        "stock": 25,
+        "categoria": "Electrónica"
+    },
+    {
+        "id": 10,
+        "nombre": "Smartphone de Última Generación",
+        "precio": 899.99,
+        "imagen": "https://www.apple.com/iphone.jpg",
+        "descripcion": "Teléfono inteligente con pantalla AMOLED y cámara de alta resolución.",
+        "stock": 15,
+        "categoria": "Electrónica"
+    },
+    {
+        "id": 11,
+        "nombre": "Smartwatch Deportivo",
+        "precio": 149.99,
+        "imagen": "https://www.garmin.com/smartwatch.jpg",
+        "descripcion": "Reloj inteligente con GPS y monitoreo de actividad física.",
+        "stock": 30,
+        "categoria": "Electrónica"
+    },
+    {
+        "id": 12,
+        "nombre": "Teclado Mecánico Retroiluminado",
+        "precio": 89.99,
+        "imagen": "https://www.logitech.com/teclado-mecanico.jpg",
+        "descripcion": "Teclado mecánico con iluminación RGB y teclas personalizables.",
+        "stock": 35,
+        "categoria": "Electrónica"
+    }
+]
