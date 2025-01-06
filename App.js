@@ -26,15 +26,15 @@ export default function App() {
     return null
   }
 
-  const producto ={
-    id : 1,
-    nombre : "Almohada de Espuma Viscoelástica",
+  const producto = {
+    id: 1,
+    nombre: "Almohada de Espuma Viscoelástica",
     precio: 25.99,
     imagen: "https://dormitienda.com/wp-content/uploads/ViscoFirme.jpg",
-    descripcion : "Almohada ergonómica con tecnología de espuma viscoelástica para un descanso óptimo.",
-    stock : 50,
-    categoria : "Hogar"
-}
+    descripcion: "Almohada ergonómica con tecnología de espuma viscoelástica para un descanso óptimo.",
+    stock: 50,
+    categoria: "Hogar"
+  }
 
   return (
     <SafeAreaView style={styles.container}>
