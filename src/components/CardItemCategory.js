@@ -1,14 +1,21 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { color } from '../Global/colors'
+import { useNavigation } from '@react-navigation/native'
+import { useDispatch } from 'react-redux'
+import { setProductosFiltradoPorCategoria } from '../features/shopSlice'
 
-const CardItemCategory = ({item}) => {
+const CardItemCategory = ({item : categoria}) => {
+    const navigation = useNavigation()
+    const dispatch = useDispatch()
     return (
-            <View style={styles.container}>
+            <Pressable style={styles.container} onPress={()=>{
+                dispatch(setProductosFiltradoPorCategoria(categoria))
+                navigation.navigate("ProductCategory",{categoria})}}>
                 <Text style={styles.text}>
-                    {item}
+                    {categoria}
                 </Text>
-            </View>
+            </Pressable>
     )
 }
 
@@ -26,6 +33,7 @@ const styles = StyleSheet.create({
     },
     text: {
         fontSize: 15,
-        padding: "10"
+        padding: "10",
+        fontFamily:"Berkshire"
     }
 })

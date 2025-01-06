@@ -1,21 +1,28 @@
 import { StyleSheet, Text, View,Image, Pressable } from 'react-native'
 import { color } from '../Global/colors'
+import { useNavigation } from '@react-navigation/native'
 
 
-const Item = ({item}) => {
+const Product = ({producto}) => {
+
+  const navigation = useNavigation()
+
   return (
-    <Pressable style={styles.container}>
-            <Image style={styles.img} source={{uri:item.imagen}}/>
-            <Text style={styles.nombre}>{item.nombre}</Text>
-            <Text style={styles.text}>categoria :{item.categoria}</Text>
-            <Text style={styles.text}>precio :{item.precio}</Text>
+    <Pressable  style={styles.container} onPress={() => navigation.navigate("ProductDetail",{producto})}>
+            <Image style={styles.img} source={{uri:producto.imagen}}/>
+            <Text style={styles.nombre}>{producto.nombre}</Text>
+            <Text style={styles.text}>categoria :{producto.categoria}</Text>
+            <Text style={styles.text}>precio :{producto.precio}</Text>
           </Pressable>
   )
 }
 
-export default Item
+export default Product
 
 const styles = StyleSheet.create({
+  containerCard:{
+    paddingBottom:1000
+  },
     container:{
         backgroundColor: color.card,
         // justifyContent:"center",
@@ -24,7 +31,7 @@ const styles = StyleSheet.create({
         alignItems:"center",
         padding:6,
         borderRadius:5,
-        gap:10
+        gap:10,
       },
     text:{
       // backgroundColor:"red",

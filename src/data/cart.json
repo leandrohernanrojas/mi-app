@@ -1,0 +1,32 @@
+{
+    "total":5000,
+    "productos":[
+        {
+            "id": 1,
+            "nombre": "Almohada de Espuma Viscoelástica",
+            "precio": 25.99,
+            "imagen": "https://dormitienda.com/wp-content/uploads/ViscoFirme.jpg",
+            "descripcion": "Almohada ergonómica con tecnología de espuma viscoelástica para un descanso óptimo.",
+            "stock": 50,
+            "categoria": "Hogar"
+        },
+        {
+            "id": 2,
+            "nombre": "Sofá Modular de Tela",
+            "precio": 499.99,
+            "imagen": "https://www.ikea.com/es/es/images/products/kivik-sofa-modular.jpg",
+            "descripcion": "Sofá cómodo y moderno con diseño modular y tela resistente.",
+            "stock": 10,
+            "categoria": "Hogar"
+        },
+        {
+            "id": 3,
+            "nombre": "Set de Cuchillos de Cocina",
+            "precio": 79.99,
+            "imagen": "https://www.wmf.com/media/catalog/product/set-cuchillos.jpg",
+            "descripcion": "Juego de cuchillos de acero inoxidable con soporte magnético.",
+            "stock": 40,
+            "categoria": "Hogar"
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 export const color = {
     primario:"rgb(185, 17, 121)",
-    secundario:"rgba(244, 200, 133, 0.545)",
-    card: "rgba(98, 57, 83, 0.231)",
-    button:"rgb(135, 22, 33)",
+    secundario:"rgba(230, 194, 140, 0.65)",
+    card: "rgba(152, 83, 125, 0.43)",
+    button:"rgb(219, 107, 118)",
     titulos:"rgb(185, 17, 121)"
 }

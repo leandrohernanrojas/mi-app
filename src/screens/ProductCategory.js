@@ -1,37 +1,44 @@
 import { FlatList, StyleSheet, Text, View } from 'react-native'
-import productos from "../data/Productos.json"
 import { useEffect, useState } from 'react'
-import Header from '../components/Header'
-import Item from '../components/ItemCategory'
+import Product from '../components/CardProduct'
 import Search from '../components/Search'
+import { useGetProductosQuery } from '../seervices/shop'
 
-const ProductCategory = ({categoria}) => {
-    const [productoFiltrado,setProductosFiltrados] =useState([])
-    const [palabraClave,setPalabraClave]= useState("")
 
-    // useEffect(()=>{
-    //   setProductosFiltrados(productos.filter(producto => producto.categoria === categoria))
-    // },[])
-    useEffect(()=>{
-      if(palabraClave){
-        return setProductosFiltrados(productos.filter(producto => producto.categoria === categoria 
-          && producto.nombre.includes(palabraClave)))
+const ProductCategory = ({route}) => {
+
+  const {categoria} = route.params
+  const {data,isSuccess} = useGetProductosQuery(categoria)
+  const [palabraClave, setPalabraClave] = useState("")
+  const [productos, setProductos] = useState([])
+
+  useEffect(()=>{
+    if(isSuccess){
+      setProductos(Object.values(data))
+    }
+  },[isSuccess,data])
+
+  useEffect(() => {
+    if(isSuccess){
+
+      setProductos(Object.values(data).filter(
+        producto => producto.nombre.includes(palabraClave)))
       }
-    setProductosFiltrados(productos.filter(producto => producto.categoria === categoria))
-    },[palabraClave])
+
+  }, [palabraClave,isSuccess])
 
 
   return (
-    <View style={styles.container}>
-        <Header titulo={categoria}/>
-        <Search  onChangeKeyword={(t)=> setPalabraClave(t)}/>
-        <FlatList
-        data={productoFiltrado}
-        keyEstractor={item=> item.id}
-        renderItem={({item})=>(
-          <Item item={item}></Item>
+    <View style={styles.container} >
+      <Search onChangeKeyword={(t) => setPalabraClave(t)} />
+      <FlatList
+        data={productos}
+        keyEstractor={item => item.id}
+        renderItem={({ item }) => (
+          <Product producto={item}></Product>
         )}
-        style={styles.item}/>
+        contentContainerStyle={styles.containerCard}
+      />
     </View>
   )
 }
@@ -39,12 +46,9 @@ const ProductCategory = ({categoria}) => {
 export default ProductCategory
 
 const styles = StyleSheet.create({
-  container:{
-    // flex:1,
-    alignContent:"center",
+  containerCard: {
+    paddingBottom: "50%",
   },
-  item:{
-    
-    
-  }
+
+
 })    

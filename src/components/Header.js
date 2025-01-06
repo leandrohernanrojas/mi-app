@@ -1,26 +1,23 @@
-import { StyleSheet, Text, useWindowDimensions, View } from 'react-native'
+import { Image, StyleSheet, Text, View } from 'react-native'
 import Button from './Button'
 import { color } from '../Global/colors'
-import { useEffect, useState } from 'react'
+import logo from "../../assets/img/logo-md.png"
+
+
 
 const Header = ({titulo}) => {
-  const [portrait,setPortrait] = useState(false)
-  const {width,height} = useWindowDimensions()
-  
-  useEffect(()=>{
-    if(width > height){
-      setPortrait(false)
-    }else{
-      setPortrait(true)
-    }
-  },[width,height])
 
   return (
+    <>
     <View style={styles.container}>
+      <Image style={styles.img} source={require("../../assets/img/logo-md.png")}></Image>
       <Text style={styles.text}>Maradiana</Text>
-      <Text style={styles.tituloPaginas}>{titulo}</Text>
       <Button />
     </View>
+      <View>
+      <Text style={styles.tituloPaginas}>{titulo}</Text>
+      </View>
+    </>
   )
 }
 
@@ -31,24 +28,25 @@ const styles = StyleSheet.create({
         flexDirection:"row",
         backgroundColor:color.secundario,
         alignItems:"center",
-        height: 50,
-        position:"static",
+        height: 45,
+        justifyContent:"space-between"
     },
     text:{
-        flex:1,
-        paddingInline:"2%",
-        padding:5,
         color:color.titulos,
         fontSize:30,
         fontFamily:"Berkshire",
     },
     tituloPaginas:{
-      flex:1,
+      backgroundColor:color.secundario,
       color:color.titulos,
-      // paddingInline:"4%",
-      paddingLeft:20,
-      // padding:5,
+      textAlign:"center",
+      paddingBottom:10,
       fontSize:20, 
       fontFamily:"Berkshire",
+    },
+    img:{
+      width:30,
+      height:30,
+      paddingInline:20
     }
 })
