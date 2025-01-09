@@ -1,5 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native'
 import Categories from '../components/Categories'
+import Login from './Login'
+import Signup from './Signup'
 
 
 
@@ -8,7 +10,9 @@ const Home = () => {
 
     return (
         <View style={styles.container}>
-            <Categories />
+            <Signup></Signup>
+            {/* <Login></Login> */}
+            {/* <Categories /> */}
         </View>
     )
 }
