@@ -10,9 +10,7 @@ const Home = () => {
 
     return (
         <View style={styles.container}>
-            <Signup></Signup>
-            {/* <Login></Login> */}
-            {/* <Categories /> */}
+            <Categories />
         </View>
     )
 }

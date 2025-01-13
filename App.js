@@ -20,6 +20,7 @@ export default function App() {
       <Provider store={store}>
         <Navegator />
       </Provider>
+
       <StatusBar backgroundColor={color.secundario} />
     </>
   );

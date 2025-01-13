@@ -1,24 +1,23 @@
 import { StyleSheet, Text, View } from 'react-native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import Cart from '../screens/Cart'
-import Header from '../components/Header'
+import Login from '../screens/Login'
+import Signup from '../screens/Signup'
 
 const Stack = createNativeStackNavigator()
 
-const CartStack = () => {
-  return (
-    <Stack.Navigator
-    screenOptions={({ route }) => ({
-        header: () => {
-            return <Header titulo="Carrito" routeName={route.name}/>
-        }
-    })}
-    >
-        <Stack.Screen name="cart" component={Cart}/>
-    </Stack.Navigator>
-  )
+const AuthStack = () => {
+    return (
+        <Stack.Navigator
+            screenOptions={{
+                headerShown:false,
+            }}
+            >
+            <Stack.Screen name="Login" component={Login}/>
+            <Stack.Screen name="Signup" component={Signup}/>
+        </Stack.Navigator>
+    )
 }
 
-export default CartStack
+export default AuthStack
 
 const styles = StyleSheet.create({})

@@ -3,18 +3,24 @@ import { useState } from 'react'
 import { color, colors } from "../Global/colors"
 import InputForm from '../components/InputForm'
 import SubmitButton from '../components/SubmitButton'
+import { useNavigation } from '@react-navigation/native'
+import { useSignUpMutation } from '../seervices/auth'
 
 
-const Login = ({ navigation }) => {
+const Signup = () => {
 
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
-    const [conofirmarPassword, setConfirmarPassword] = useState('')
+    const [confirmarPassword, setConfirmarPassword] = useState('')
     const [emailError, setEmeilError] = useState('')
-    const [passwordError, setPasswordError] = useState('s')
-    const [conofirmarPasswordError, setConfirmarPasswordError] = useState('s')
+    const [passwordError, setPasswordError] = useState("")
+    const [confirmarPasswordError, setConfirmarPasswordError] = useState('')
+    const navigation = useNavigation()
+    const [triggerSignUp] = useSignUpMutation()
+ 
     const onSubmit = async () => {
-
+        const responder = await triggerSignUp({email,password})
+        console.log(responder.error)
     }
 
     return (
@@ -37,22 +43,22 @@ const Login = ({ navigation }) => {
                 />
                 <InputForm
                     label="Confirmar Password"
-                    value={conofirmarPassword}
-                    onChangeText={(t) => setConfirmarPasswordError(t)}
+                    value={confirmarPassword}
+                    onChangeText={(t) => setConfirmarPassword(t)}
                     isSecure={true}
-                    error={conofirmarPasswordError}
+                    error={confirmarPasswordError}
                 />
-                <SubmitButton style={styles.button} onPress={onSubmit} title="Ingresar" />
+                <SubmitButton style={styles.button} onPress={onSubmit} title="Registrarme" />
                 <Text style={styles.sub}>Tenes cuenta registrada?</Text>
-                <Pressable onPress={() => navigation.navigate('Signup')}>
-                    <Text style={styles.subLink}>Login</Text>
+                <Pressable onPress={() => navigation.navigate('Login')}>
+                    <Text style={styles.subLink}>login</Text>
                 </Pressable>
             </View>
         </View>
     )
 }
 
-export default Login
+export default Signup
 
 const styles = StyleSheet.create({
     main: {

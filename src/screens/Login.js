@@ -1,19 +1,23 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native'
 import { useState } from 'react'
-import { color, colors } from "../Global/colors"
+import { color} from "../Global/colors"
 import InputForm from '../components/InputForm'
 import SubmitButton from '../components/SubmitButton'
+import { useNavigation } from '@react-navigation/native'
 
 
-const Login = ({ navigation }) => {
+
+const Login = () => {
 
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const [emailError, setEmeilError] = useState('')
     const [passwordError, setPasswordError] = useState('')
+    const navigation = useNavigation()
+    
 
     const onSubmit = async () => {
-
+        
     }
 
     return (
