@@ -6,11 +6,14 @@ import { fonts } from './src/Global/fonts';
 import Navegator from './src/navigation/Navigator';
 import { Provider } from 'react-redux';
 import {store} from "./src/store"
+import { init } from './src/config/dbSqlite';
+import { useEffect } from 'react';
 
 
 export default function App() {
+  
   const [fontsloaded] = useFonts(fonts)
-
+  
   if (!fontsloaded) {
     return null
   }

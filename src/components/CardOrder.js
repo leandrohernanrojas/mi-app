@@ -4,11 +4,10 @@ import { color } from '../Global/colors';
 
 
 const CardOrder = ({ order }) => {
-    const fecha = new Date (order.createdAt).toLocaleString()
     return (
         <View style={styles.container}>
             <View style={styles.content}>
-                <Text style={styles.text}>{fecha}</Text>
+                <Text style={styles.text}>{order.createdAt}</Text>
                 <Text style={styles.text}>Total : {order.total} $ ARG</Text>
             </View>
             <FontAwesome style={styles.serch} name="search" size={28} color="black" />

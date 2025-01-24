@@ -1,9 +1,19 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native'
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
-import {color} from "../Global/colors"
-import { fonts } from '../Global/fonts';
+import { color } from "../Global/colors"
+import {  useDeleteCartProductMutation } from '../seervices/cart';
+import { useSelector } from 'react-redux';
+
 
 const CardCartProducto = ({ producto }) => {
+    
+    
+    const localId = useSelector(state => state.user.localId)
+    const [triggerDeleteItem] = useDeleteCartProductMutation()
+
+    const deleteItemCart = () => {
+        triggerDeleteItem({localId,productoId:producto.id})
+    }
     return (
         <View style={styles.container}>
             <View style={styles.contentText}>
@@ -17,7 +27,9 @@ const CardCartProducto = ({ producto }) => {
                 </Pressable>
                 <Pressable><Text style={styles.buttonText}>-</Text>
                 </Pressable>
-                <MaterialIcons name="restore-from-trash" size={24} color="black" />
+                <Pressable onPress={deleteItemCart}>
+                    <MaterialIcons name="restore-from-trash" size={24} color="black" />
+                </Pressable>
             </View>
         </View>
     )
@@ -26,33 +38,33 @@ const CardCartProducto = ({ producto }) => {
 export default CardCartProducto
 
 const styles = StyleSheet.create({
-    container:{
-        backgroundColor:color.card,
-        margin:10,
-        borderRadius:10,
-        padding:10,
+    container: {
+        backgroundColor: color.card,
+        margin: 10,
+        borderRadius: 10,
+        padding: 10,
     },
-    contentText:{
-        
+    contentText: {
+
     },
-    nombre:{
-        fontSize:20,
-        fontFamily:"Berkshire"
+    nombre: {
+        fontSize: 20,
+        fontFamily: "Berkshire"
     },
-    text:{
-        height:24,
-        fontFamily:"Besley",
-        textShadowRadius:2,
+    text: {
+        height: 24,
+        fontFamily: "Besley",
+        textShadowRadius: 2,
     },
-    button:{
-        flexDirection:"row",
-        gap:20,
-        alignItems:"center"
+    button: {
+        flexDirection: "row",
+        gap: 20,
+        alignItems: "center"
     },
-    buttonText:{
-        fontSize:20,
+    buttonText: {
+        fontSize: 20,
         // backgroundColor:"red",
-        paddingInline:6
+        paddingInline: 6
     }
 
 

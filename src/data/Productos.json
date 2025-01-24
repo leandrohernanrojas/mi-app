@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": 0,
         "nombre": "Almohada de Espuma Viscoelástica",
         "precio": 25.99,
         "imagen": "https://dormitienda.com/wp-content/uploads/ViscoFirme.jpg",
@@ -9,7 +9,7 @@
         "categoria": "Hogar"
     },
     {
-        "id": 2,
+        "id": 1,
         "nombre": "Sofá Modular de Tela",
         "precio": 499.99,
         "imagen": "https://www.ikea.com/es/es/images/products/kivik-sofa-modular.jpg",
@@ -18,7 +18,7 @@
         "categoria": "Hogar"
     },
     {
-        "id": 3,
+        "id": 2,
         "nombre": "Set de Cuchillos de Cocina",
         "precio": 79.99,
         "imagen": "https://www.wmf.com/media/catalog/product/set-cuchillos.jpg",
@@ -27,7 +27,7 @@
         "categoria": "Hogar"
     },
     {
-        "id": 4,
+        "id": 3,
         "nombre": "Mesa de Comedor de Madera",
         "precio": 299.99,
         "imagen": "https://www.ikea.com/es/es/images/products/mesa-madera.jpg",
@@ -36,7 +36,7 @@
         "categoria": "Hogar"
     },
     {
-        "id": 5,
+        "id": 4,
         "nombre": "Camiseta de Algodón",
         "precio": 12.99,
         "imagen": "https://www.hm.com/content/camiseta-basica-algodon.jpg",
@@ -45,7 +45,7 @@
         "categoria": "Ropa"
     },
     {
-        "id": 6,
+        "id": 5,
         "nombre": "Pantalón Vaquero Slim Fit",
         "precio": 39.99,
         "imagen": "https://www.zara.com/es/images/pantalon-slim-fit.jpg",
@@ -54,7 +54,7 @@
         "categoria": "Ropa"
     },
     {
-        "id": 7,
+        "id": 6,
         "nombre": "Chaqueta Impermeable",
         "precio": 59.99,
         "imagen": "https://www.decathlon.es/chaqueta-impermeable.jpg",
@@ -63,7 +63,7 @@
         "categoria": "Ropa"
     },
     {
-        "id": 8,
+        "id": 7,
         "nombre": "Zapatillas Deportivas",
         "precio": 49.99,
         "imagen": "https://www.nike.com/zapatillas-deportivas.jpg",
@@ -72,7 +72,7 @@
         "categoria": "Ropa"
     },
     {
-        "id": 9,
+        "id": 8,
         "nombre": "Auriculares Inalámbricos Bluetooth",
         "precio": 59.99,
         "imagen": "https://www.sony.com/auriculares-bluetooth.jpg",
@@ -81,7 +81,7 @@
         "categoria": "Electrónica"
     },
     {
-        "id": 10,
+        "id": 9,
         "nombre": "Smartphone de Última Generación",
         "precio": 899.99,
         "imagen": "https://www.apple.com/iphone.jpg",
@@ -90,7 +90,7 @@
         "categoria": "Electrónica"
     },
     {
-        "id": 11,
+        "id": 10,
         "nombre": "Smartwatch Deportivo",
         "precio": 149.99,
         "imagen": "https://www.garmin.com/smartwatch.jpg",
@@ -99,7 +99,7 @@
         "categoria": "Electrónica"
     },
     {
-        "id": 12,
+        "id": 11,
         "nombre": "Teclado Mecánico Retroiluminado",
         "precio": 89.99,
         "imagen": "https://www.logitech.com/teclado-mecanico.jpg",

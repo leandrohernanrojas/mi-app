@@ -4,6 +4,11 @@ import { color} from "../Global/colors"
 import InputForm from '../components/InputForm'
 import SubmitButton from '../components/SubmitButton'
 import { useNavigation } from '@react-navigation/native'
+import { useLoginMutation } from '../seervices/auth'
+import { useDispatch } from 'react-redux'
+import { loginSchema } from '../validation/loginSchema'
+import { setUser } from '../features/userSlice'
+import { deleteSesion, insertSession } from '../config/dbSqlite'
 
 
 
@@ -11,13 +16,38 @@ const Login = () => {
 
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
-    const [emailError, setEmeilError] = useState('')
+    const [emailError, setEmailError] = useState('')
     const [passwordError, setPasswordError] = useState('')
     const navigation = useNavigation()
+    const [triggerLogin] = useLoginMutation()
+    const dispatch = useDispatch()
+
     
 
     const onSubmit = async () => {
-        
+        try {
+                loginSchema.validateSync({email,password})
+                const response = await triggerLogin({email,password})
+                const user = {
+                    email:response.data.email,
+                    idToken:response.data.idToken,
+                    localId:response.data.localId
+                }
+                dispatch(setUser(user))
+                await deleteSesion()
+                await insertSession(user.localId,user.email,user.idToken)
+                } catch (error) {
+                    switch (error.path) {
+                        case "email":
+                            setEmailError(error.message)
+                            setPasswordError("")
+                            break;
+                        case "password":
+                            setPasswordError(error.message)
+                            setEmailError("")
+                            break;
+                    }
+                }
     }
 
     return (

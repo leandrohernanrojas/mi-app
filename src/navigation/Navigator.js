@@ -3,23 +3,45 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import TabNavigator from './TabNavigator';
 import AuthStack from './AuthStack';
+import { useDispatch, useSelector } from 'react-redux';
+import { useEffect } from 'react';
+import { fetchSession, init } from '../config/dbSqlite';
+import { deleteUser, setUser } from '../features/userSlice';
 
 const Tab = createBottomTabNavigator()
 
 const Navigator = () => {
-    const isAuth = false
+  const idToken = useSelector(state => state.user.idToken)
 
-    return (
-        <NavigationContainer>
-            {isAuth ? <TabNavigator/> : <AuthStack/>}
-        </NavigationContainer>
-    )
+  const dispatch = useDispatch()
+
+  useEffect(() => {
+    (async () => {
+      try {
+        await init()
+        dispatch(deleteUser())
+        const sessionUser = await fetchSession()
+        console.log(sessionUser)
+        if (sessionUser) {
+          dispatch(setUser(sessionUser))
+        }
+      } catch (error) {
+        console.log(error)
+      }
+    })()
+  }, [])
+
+  return (
+    <NavigationContainer>
+      {idToken ? <TabNavigator /> : <AuthStack />}
+    </NavigationContainer>
+  )
 }
 
 
-export default Navigator
 const styles = StyleSheet.create({
-    
+
 
 })
 
+export default Navigator

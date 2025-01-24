@@ -1,5 +1,4 @@
 import { StyleSheet, Text, View, TextInput } from 'react-native'
-import { auth_base_url } from '../database'
 import { color } from '../Global/colors'
 
 

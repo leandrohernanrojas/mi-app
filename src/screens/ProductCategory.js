@@ -3,12 +3,13 @@ import { useEffect, useState } from 'react'
 import Product from '../components/CardProduct'
 import Search from '../components/Search'
 import { useGetProductosQuery } from '../seervices/shop'
+import LoadingSpinner from '../components/LoadingSpinner'
 
 
 const ProductCategory = ({route}) => {
 
   const {categoria} = route.params
-  const {data,isSuccess} = useGetProductosQuery(categoria)
+  const {data,isSuccess,isLoading} = useGetProductosQuery(categoria)
   const [palabraClave, setPalabraClave] = useState("")
   const [productos, setProductos] = useState([])
 
@@ -27,6 +28,7 @@ const ProductCategory = ({route}) => {
 
   }, [palabraClave,isSuccess])
 
+  if(isLoading) return <LoadingSpinner/>
 
   return (
     <View style={styles.container} >
@@ -35,7 +37,7 @@ const ProductCategory = ({route}) => {
         data={productos}
         keyEstractor={item => item.id}
         renderItem={({ item }) => (
-          <Product producto={item}></Product>
+          <Product producto={item}/>
         )}
         contentContainerStyle={styles.containerCard}
       />

@@ -14,7 +14,7 @@ const CartStack = () => {
         }
     })}
     >
-        <Stack.Screen name="cart" component={Cart}/>
+        <Stack.Screen name="Cart" component={Cart}/>
     </Stack.Navigator>
   )
 }

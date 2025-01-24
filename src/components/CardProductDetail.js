@@ -9,9 +9,6 @@ const CardProductDetail = ({producto}) => {
             <Text style={styles.title}>{producto.nombre}</Text>
             <Text style={styles.description}>{producto.descripcion}</Text>
             <Text style={styles.price}>Precio: {producto.precio} $ ARG</Text>
-            <Pressable style={styles.boton}>
-                <Text style={styles.textBoton}>Agregar al carrito</Text>
-            </Pressable>
         </View>
     )
 }
