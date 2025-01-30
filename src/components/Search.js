@@ -29,7 +29,6 @@ const Search = ({filtroPorPalabraClave,onChangeKeyword}) => {
             <View style={styles.search}>
                 <TextInput 
                 placeholder='Buscar'
-                // placeholderTextColor="red" 
                 style={styles.textinput}
                 value={textInput}
                 onChangeText={(text)=> setTextInput(text)}
@@ -57,7 +56,6 @@ const styles = StyleSheet.create({
         backgroundColor: color.primario,
         borderRadius: 6,
         alignItems: "center",
-        // justifyContent:"center",
         padding: 2,
         paddingRight: 10,
         gap: 15

@@ -30,7 +30,6 @@ const LocationSelector = () => {
                     lat: newLocation.coords.latitude,
                     long: newLocation.coords.longitude
                 })
-                // console.log(location)
             } catch (error) {
                 console.log(error)
             }

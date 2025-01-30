@@ -1,110 +1,902 @@
 [
     {
         "id": 0,
-        "nombre": "Almohada de Espuma Viscoelástica",
-        "precio": 25.99,
-        "imagen": "https://dormitienda.com/wp-content/uploads/ViscoFirme.jpg",
-        "descripcion": "Almohada ergonómica con tecnología de espuma viscoelástica para un descanso óptimo.",
-        "stock": 50,
+        "nombre": "Cojín Decorativo",
+        "precio": 15.99,
+        "imagen": "https://www.decoandyou.com/blog/wp-content/uploads/2021/07/cojines-decoracion-diseno.jpg",
+        "descripcion": "Cojín suave y cómodo, ideal para decorar salas o dormitorios.",
+        "stock": 25,
         "categoria": "Hogar"
     },
     {
         "id": 1,
-        "nombre": "Sofá Modular de Tela",
-        "precio": 499.99,
-        "imagen": "https://www.ikea.com/es/es/images/products/kivik-sofa-modular.jpg",
-        "descripcion": "Sofá cómodo y moderno con diseño modular y tela resistente.",
+        "nombre": "Lámpara de Mesa",
+        "precio": 29,
+        "imagen": "https://www.boutiquedeluz.com/wp-content/uploads/2023/03/leuk-Pouly-Fondo-Gris-600x600-1-e1678304593357.jpg",
+        "descripcion": "Lámpara moderna con luz cálida para mesas de noche o escritorios.",
         "stock": 10,
         "categoria": "Hogar"
     },
     {
         "id": 2,
-        "nombre": "Set de Cuchillos de Cocina",
-        "precio": 79.99,
-        "imagen": "https://www.wmf.com/media/catalog/product/set-cuchillos.jpg",
-        "descripcion": "Juego de cuchillos de acero inoxidable con soporte magnético.",
-        "stock": 40,
+        "nombre": "Sillón Reclinable",
+        "precio": 299,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_993055-MLA70157841614_062023-O.webp",
+        "descripcion": "Sillón ergonómico con reclinación ajustable para mayor comodidad.",
+        "stock": 5,
         "categoria": "Hogar"
     },
     {
         "id": 3,
-        "nombre": "Mesa de Comedor de Madera",
-        "precio": 299.99,
-        "imagen": "https://www.ikea.com/es/es/images/products/mesa-madera.jpg",
-        "descripcion": "Mesa de comedor robusta hecha de madera maciza para 6 personas.",
-        "stock": 8,
+        "nombre": "Mesa de Centro",
+        "precio": 89,
+        "imagen": "https://silvinac.com.ar/wp-content/uploads/2024/03/Mesa-ratona-de-centro-madera-varillada-Danna-SILVINA-C-Muebleria-Decoracion-2.webp",
+        "descripcion": "Mesa minimalista de madera ideal para salas de estar.",
+        "stock": 15,
         "categoria": "Hogar"
     },
     {
         "id": 4,
-        "nombre": "Camiseta de Algodón",
-        "precio": 12.99,
-        "imagen": "https://www.hm.com/content/camiseta-basica-algodon.jpg",
-        "descripcion": "Camiseta básica de algodón 100%, disponible en varios colores.",
-        "stock": 100,
-        "categoria": "Ropa"
+        "nombre": "Juego de Sábanas",
+        "precio": 39.99,
+        "imagen": "https://acdn-us.mitiendanube.com/stores/001/241/075/products/1100-5f19a436064511677f16963617928779-1024-1024.png",
+        "descripcion": "Sábanas de algodón suaves y transpirables para camas matrimoniales.",
+        "stock": 30,
+        "categoria": "Hogar"
     },
     {
         "id": 5,
-        "nombre": "Pantalón Vaquero Slim Fit",
-        "precio": 39.99,
-        "imagen": "https://www.zara.com/es/images/pantalon-slim-fit.jpg",
-        "descripcion": "Pantalón vaquero ajustado con un diseño moderno y cómodo.",
-        "stock": 30,
-        "categoria": "Ropa"
+        "nombre": "Espejo de Pared",
+        "precio": 49.99,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_917949-MLA77125500592_062024-O.webp",
+        "descripcion": "Espejo decorativo con marco elegante para cualquier habitación.",
+        "stock": 12,
+        "categoria": "Hogar"
     },
     {
         "id": 6,
-        "nombre": "Chaqueta Impermeable",
-        "precio": 59.99,
-        "imagen": "https://www.decathlon.es/chaqueta-impermeable.jpg",
-        "descripcion": "Chaqueta ligera e impermeable, ideal para días lluviosos.",
-        "stock": 20,
-        "categoria": "Ropa"
+        "nombre": "Estantería Modular",
+        "precio": 199.99,
+        "imagen": "https://acdn.mitiendanube.com/stores/238/796/products/modestanteriaggg00031-07517bf2a4ee31f90516833101510034-1024-1024.jpg",
+        "descripcion": "Estantería versátil para almacenamiento y organización en el hogar.",
+        "stock": 8,
+        "categoria": "Hogar"
     },
     {
         "id": 7,
-        "nombre": "Zapatillas Deportivas",
-        "precio": 49.99,
-        "imagen": "https://www.nike.com/zapatillas-deportivas.jpg",
-        "descripcion": "Zapatillas cómodas y resistentes para uso deportivo o casual.",
+        "nombre": "Alfombra Decorativa",
+        "precio": 59.99,
+        "imagen": "https://acdn.mitiendanube.com/stores/001/086/575/products/alfombra-estambul-a9c2de2994eb90d70c17274461705083-1024-1024.jpg",
+        "descripcion": "Alfombra suave y duradera con diseño moderno.",
+        "stock": 20,
+        "categoria": "Hogar"
+    },
+    {
+        "id": 8,
+        "nombre": "Cortinas Translúcidas",
+        "precio": 35.99,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_735502-MLA69864123060_062023-O.webp",
+        "descripcion": "Cortinas ligeras que filtran la luz natural y ofrecen privacidad.",
+        "stock": 18,
+        "categoria": "Hogar"
+    },
+    {
+        "id": 9,
+        "nombre": "Set de Vajilla",
+        "precio": 99.99,
+        "imagen": "https://acdn.mitiendanube.com/stores/003/016/472/products/oxford_ceramica_unni_jeans1-5ac3cbc15fa467134d16828032136283-1024-1024.jpg",
+        "descripcion": "Set de vajilla para 6 personas, incluye platos, tazones y vasos.",
+        "stock": 10,
+        "categoria": "Hogar"
+    },
+    {
+        "id": 10,
+        "nombre": "Camiseta Básica",
+        "precio": 12.99,
+        "imagen": "https://danjohn.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F1751%2F7213%2Ffiles%2FT-shirt-basic-nera_1a791847-2816-489c-891e-df6267f10ae2.jpg%3Fv%3D1720656973&w=3840&q=75",
+        "descripcion": "Camiseta básica de algodón, perfecta para cualquier ocasión casual.",
         "stock": 50,
         "categoria": "Ropa"
     },
     {
-        "id": 8,
-        "nombre": "Auriculares Inalámbricos Bluetooth",
-        "precio": 59.99,
-        "imagen": "https://www.sony.com/auriculares-bluetooth.jpg",
-        "descripcion": "Auriculares Bluetooth con cancelación de ruido y batería de larga duración.",
-        "stock": 25,
-        "categoria": "Electrónica"
+        "id": 11,
+        "nombre": "Jeans Clásicos",
+        "precio": 29.99,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR24xKlXtuJfE0SFu6RJLNIUqvpHaXwTaUgLA&s",
+        "descripcion": "Jeans ajustados con diseño clásico y cómodos para el día a día.",
+        "stock": 35,
+        "categoria": "Ropa"
     },
     {
-        "id": 9,
-        "nombre": "Smartphone de Última Generación",
-        "precio": 899.99,
-        "imagen": "https://www.apple.com/iphone.jpg",
-        "descripcion": "Teléfono inteligente con pantalla AMOLED y cámara de alta resolución.",
+        "id": 12,
+        "nombre": "Vestido de Verano",
+        "precio": 24.99,
+        "imagen": "https://acdn.mitiendanube.com/stores/002/363/823/products/img_9927-880592ee9ca7148fe917256335274792-480-0.jpeg",
+        "descripcion": "Vestido ligero y fresco ideal para el verano.",
+        "stock": 20,
+        "categoria": "Ropa"
+    },
+    {
+        "id": 13,
+        "nombre": "Sudadera con Capucha",
+        "precio": 34.99,
+        "imagen": "https://m.media-amazon.com/images/I/61TYzbR+K-L._AC_SL1500_.jpg",
+        "descripcion": "Sudadera cálida y cómoda con bolsillo frontal y capucha ajustable.",
+        "stock": 25,
+        "categoria": "Ropa"
+    },
+    {
+        "id": 14,
+        "nombre": "Zapatillas Deportivas",
+        "precio": 49.99,
+        "imagen": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg",
+        "descripcion": "Zapatillas cómodas y versátiles para entrenar o uso diario.",
+        "stock": 40,
+        "categoria": "Ropa"
+    },
+    {
+        "id": 15,
+        "nombre": "Abrigo Largo",
+        "precio": 79.99,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRzNcTYWUpeNKwXCHYJTdCgke5DxUKwSL5kQ&s",
+        "descripcion": "Abrigo elegante y cálido, perfecto para días fríos.",
+        "stock": 10,
+        "categoria": "Ropa"
+    },
+    {
+        "id": 16,
+        "nombre": "Gorra Casual",
+        "precio": 14.99,
+        "imagen": "https://ar.isadoraonline.com/media/catalog/product/4/8/48668901_0_1_20240715151242.jpg?quality=75&bg-color=255,255,255&fit=bounds&height=985&width=770&canvas=770:985",
+        "descripcion": "Gorra de diseño casual, perfecta para protegerte del sol.",
+        "stock": 60,
+        "categoria": "Ropa"
+    },
+    {
+        "id": 17,
+        "nombre": "Falda Plisada",
+        "precio": 27.99,
+        "imagen": "https://acdn.mitiendanube.com/stores/601/496/products/tempimage7d6boi-490bc4c03039e10ae817074938113021-1024-1024.jpg",
+        "descripcion": "Falda elegante con diseño plisado, ideal para ocasiones formales.",
+        "stock": 15,
+        "categoria": "Ropa"
+    },
+    {
+        "id": 18,
+        "nombre": "Camisa Formal",
+        "precio": 39.99,
+        "imagen": "https://www.ubuy.com.ar/productimg/?image=aHR0cHM6Ly9pbWFnZXMtY2RuLnVidXkuY28uaW4vNjUzOWEzYmZkNWY3ZWE0YzExMmIzZDc5LWotdmVyLW1lbi0zOS1zLWRyZXNzLXNoaXJ0cy1zb2xpZC1sb25nLmpwZw.jpg",
+        "descripcion": "Camisa de vestir con corte ajustado y tejido premium.",
+        "stock": 30,
+        "categoria": "Ropa"
+    },
+    {
+        "id": 19,
+        "nombre": "Chamarra de Cuero",
+        "precio": 99.99,
+        "imagen": "https://www.entrepieles.com/wp-content/uploads/2018/05/Chamarra-para-hombre-negra.jpg",
+        "descripcion": "Chamarra clásica de cuero con diseño atemporal.",
+        "stock": 8,
+        "categoria": "Ropa"
+    },
+    {
+        "id": 20,
+        "nombre": "Smartphone Galaxy X",
+        "precio": 3000,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWfmrQ6PBR4YfeWPNnr7KCi_w0ysJ13yXTfg&s",
+        "descripcion": "Teléfono inteligente con pantalla AMOLED de 6.5 pulgadas y cámara triple.",
         "stock": 15,
         "categoria": "Electrónica"
     },
     {
-        "id": 10,
-        "nombre": "Smartwatch Deportivo",
-        "precio": 149.99,
-        "imagen": "https://www.garmin.com/smartwatch.jpg",
-        "descripcion": "Reloj inteligente con GPS y monitoreo de actividad física.",
+        "id": 21,
+        "nombre": "Laptop Ultrabook Pro",
+        "precio": 1200,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_977574-MLA77407724679_072024-O.webp",
+        "descripcion": "Laptop ultraligera con procesador Intel i7, 16 GB de RAM y 512 GB SSD.",
+        "stock": 10,
+        "categoria": "Electrónica"
+    },
+    {
+        "id": 22,
+        "nombre": "Auriculares Bluetooth",
+        "precio": 100,
+        "imagen": "https://dcdn.mitiendanube.com/stores/001/590/690/products/1-principal-auriculares-teknic-xy-19-95033ba3772d698d1f17206625751869-1024-1024.png",
+        "descripcion": "Auriculares inalámbricos con cancelación de ruido y batería de larga duración.",
         "stock": 30,
         "categoria": "Electrónica"
     },
     {
-        "id": 11,
-        "nombre": "Teclado Mecánico Retroiluminado",
-        "precio": 89.99,
-        "imagen": "https://www.logitech.com/teclado-mecanico.jpg",
-        "descripcion": "Teclado mecánico con iluminación RGB y teclas personalizables.",
-        "stock": 35,
+        "id": 23,
+        "nombre": "Televisor 4K UHD",
+        "precio": 1500,
+        "imagen": "https://www.molex.com.ar/wp-content/uploads/2023/08/samsu.jpeg",
+        "descripcion": "Televisor inteligente de 55 pulgadas con resolución 4K UHD y HDR.",
+        "stock": 8,
         "categoria": "Electrónica"
+    },
+    {
+        "id": 24,
+        "nombre": "Tablet Pro 10.5",
+        "precio": 600,
+        "imagen": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111927_ipad-pro-10in-hero-201706.png",
+        "descripcion": "Tableta con pantalla de alta resolución y 128 GB de almacenamiento.",
+        "stock": 20,
+        "categoria": "Electrónica"
+    },
+    {
+        "id": 25,
+        "nombre": "Reloj Inteligente",
+        "precio": 250,
+        "imagen": "https://images.fravega.com/f500/037f237dad0991a519d086235da3c6b9.jpg",
+        "descripcion": "Reloj con monitor de actividad física, GPS y compatibilidad con teléfonos.",
+        "stock": 25,
+        "categoria": "Electrónica"
+    },
+    {
+        "id": 26,
+        "nombre": "Cámara Fotográfica DSLR",
+        "precio": 900,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_842574-MLA40353899541_012020-T.webp",
+        "descripcion": "Cámara réflex digital con sensor de alta resolución y lente intercambiable.",
+        "stock": 12,
+        "categoria": "Electrónica"
+    },
+    {
+        "id": 27,
+        "nombre": "Bocina Portátil",
+        "precio": 150,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_970067-MLU54977991449_042023-O.webp",
+        "descripcion": "Bocina inalámbrica con sonido estéreo y resistencia al agua.",
+        "stock": 40,
+        "categoria": "Electrónica"
+    },
+    {
+        "id": 28,
+        "nombre": "Monitor 27 pulgadas",
+        "precio": 300,
+        "imagen": "https://images.fravega.com/f500/661fb3be1088fc4ab85cb8c2c38beaa8.jpg",
+        "descripcion": "Monitor Full HD de 27 pulgadas con diseño sin bordes.",
+        "stock": 18,
+        "categoria": "Electrónica"
+    },
+    {
+        "id": 29,
+        "nombre": "Consola de Videojuegos",
+        "precio": 500,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUzHjHElXnQN9GgHlMHLQsR1_AuePW_6byVg&s",
+        "descripcion": "Consola de última generación con gráficos impresionantes y mando inalámbrico.",
+        "stock": 10,
+        "categoria": "Electrónica"
+    },
+    {
+        "id": 30,
+        "nombre": "Osito de Peluche",
+        "precio": 25,
+        "imagen": "https://m.media-amazon.com/images/I/81b5Wnh3XbL._AC_SL1500_.jpg",
+        "descripcion": "Suave y tierno osito de peluche, ideal para niños y niñas.",
+        "stock": 50,
+        "categoria": "Juguetes"
+    },
+    {
+        "id": 31,
+        "nombre": "Lego City",
+        "precio": 50,
+        "imagen": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000000187/69473ec5d3b15f6f199681f79e79934c8b9b9398dfdf55603622dbe855fe33a5",
+        "descripcion": "Set de construcción Lego City para desarrollar la creatividad.",
+        "stock": 30,
+        "categoria": "Juguetes"
+    },
+    {
+        "id": 32,
+        "nombre": "Carrito de Control Remoto",
+        "precio": 40,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_649791-MLU73807319042_012024-O.webp",
+        "descripcion": "Carro a control remoto con batería recargable y diseño aerodinámico.",
+        "stock": 20,
+        "categoria": "Juguetes"
+    },
+    {
+        "id": 33,
+        "nombre": "Muñeca Barbie",
+        "precio": 35,
+        "imagen": "https://acdn.mitiendanube.com/stores/001/176/484/products/images-131-039ae64d7edc23815216886815107142-640-0.jpg",
+        "descripcion": "Muñeca Barbie con ropa de moda y accesorios incluidos.",
+        "stock": 40,
+        "categoria": "Juguetes"
+    },
+    {
+        "id": 34,
+        "nombre": "Rompecabezas 1000 Piezas",
+        "precio": 30,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_922578-MLA70433186556_072023-O.webp",
+        "descripcion": "Rompecabezas de 1000 piezas con una hermosa imagen panorámica.",
+        "stock": 25,
+        "categoria": "Juguetes"
+    },
+    {
+        "id": 35,
+        "nombre": "Tren de Juguete",
+        "precio": 45,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_741112-MLA71557496820_092023-O.webp",
+        "descripcion": "Tren de juguete con rieles, luces y sonidos realistas.",
+        "stock": 15,
+        "categoria": "Juguetes"
+    },
+    {
+        "id": 36,
+        "nombre": "Bloques de Construcción",
+        "precio": 20,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_971160-MLU72635623947_112023-O.webp",
+        "descripcion": "Set de bloques de construcción para estimular la imaginación de los niños.",
+        "stock": 60,
+        "categoria": "Juguetes"
+    },
+    {
+        "id": 37,
+        "nombre": "Patineta",
+        "precio": 55,
+        "imagen": "https://acdn.mitiendanube.com/stores/597/843/products/dsc_65081-1b7117b74b5999bbc316644751462160-1024-1024.jpg",
+        "descripcion": "Patineta de madera con ruedas de alta resistencia, ideal para principiantes.",
+        "stock": 10,
+        "categoria": "Juguetes"
+    },
+    {
+        "id": 38,
+        "nombre": "Casa de Muñecas",
+        "precio": 70,
+        "imagen": "https://acdn.mitiendanube.com/stores/888/837/products/casa-muneca-vacia1-792dab1528c741b91e16607593735546-1024-1024.jpg",
+        "descripcion": "Casa de muñecas de madera con muebles incluidos.",
+        "stock": 12,
+        "categoria": "Juguetes"
+    },
+    {
+        "id": 39,
+        "nombre": "Pelota de Playa",
+        "precio": 15,
+        "imagen": "https://acdn.mitiendanube.com/stores/808/724/products/310201-423bb0920ed5ff388916020962028912-1024-1024.jpg",
+        "descripcion": "Pelota inflable de playa con colores vibrantes.",
+        "stock": 75,
+        "categoria": "Juguetes"
+    },
+    {
+        "id": 40,
+        "nombre": "Pelota de Fútbol",
+        "precio": 30,
+        "imagen": "https://sportotalar.vtexassets.com/arquivos/ids/486908/HT9015-1074-WHITE-CONAVY-BRBLUE_1.jpg?v=638403207816600000",
+        "descripcion": "Pelota de fútbol profesional con material resistente y diseño clásico.",
+        "stock": 50,
+        "categoria": "Deportes"
+    },
+    {
+        "id": 41,
+        "nombre": "Raqueta de Tenis",
+        "precio": 120,
+        "imagen": "https://www.wilsonstore.com.ar/cdn/shop/files/WR078911U_1200x.jpg?v=1692381819",
+        "descripcion": "Raqueta ligera y ergonómica para un rendimiento óptimo en la cancha.",
+        "stock": 20,
+        "categoria": "Deportes"
+    },
+    {
+        "id": 42,
+        "nombre": "Bicicleta de Montaña",
+        "precio": 800,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqf4MI3sxW3rNhJ2l-dZXGXQU--5IPAyKDMg&s",
+        "descripcion": "Bicicleta con suspensión completa y marco ligero para terrenos difíciles.",
+        "stock": 15,
+        "categoria": "Deportes"
+    },
+    {
+        "id": 43,
+        "nombre": "Guantes de Boxeo",
+        "precio": 60,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_800839-MLA81598818062_012025-O.webp",
+        "descripcion": "Guantes acolchados para boxeo o entrenamiento de artes marciales.",
+        "stock": 35,
+        "categoria": "Deportes"
+    },
+    {
+        "id": 44,
+        "nombre": "Set de Pesas",
+        "precio": 150,
+        "imagen": "https://images.fravega.com/f500/b4a819eebec76f755435f0e2452b79fb.jpg",
+        "descripcion": "Set de pesas ajustables con barra incluida para entrenamientos de fuerza.",
+        "stock": 25,
+        "categoria": "Deportes"
+    },
+    {
+        "id": 45,
+        "nombre": "Casco de Ciclismo",
+        "precio": 80,
+        "imagen": "https://acdn.mitiendanube.com/stores/002/692/526/products/specialized_alignii_mips_hyprvizblackreflective_011-7443dd019a0e83cb3516770718928520-1024-1024.jpg",
+        "descripcion": "Casco ligero y seguro con ventilación para ciclistas de cualquier nivel.",
+        "stock": 40,
+        "categoria": "Deportes"
+    },
+    {
+        "id": 46,
+        "nombre": "Cuerda de Saltar",
+        "precio": 20,
+        "imagen": "https://acdn.mitiendanube.com/stores/001/205/055/products/inf0085-011-e4651e3b14b5549b1316124612302467-1024-1024.jpg",
+        "descripcion": "Cuerda de saltar ajustable para entrenamiento cardiovascular y fitness.",
+        "stock": 60,
+        "categoria": "Deportes"
+    },
+    {
+        "id": 47,
+        "nombre": "Balón de Baloncesto",
+        "precio": 35,
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Basketball.png",
+        "descripcion": "Balón oficial de baloncesto con superficie antideslizante.",
+        "stock": 45,
+        "categoria": "Deportes"
+    },
+    {
+        "id": 48,
+        "nombre": "Colchoneta de Yoga",
+        "precio": 40,
+        "imagen": "https://images.fravega.com/f1000/00b3baadf3643993f22a755f3281f371.jpg",
+        "descripcion": "Colchoneta antideslizante perfecta para yoga, pilates y ejercicios en casa.",
+        "stock": 30,
+        "categoria": "Deportes"
+    },
+    {
+        "id": 49,
+        "nombre": "Patines en Línea",
+        "precio": 100,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_868833-MLA80431497356_112024-O.webp",
+        "descripcion": "Patines en línea ajustables con ruedas de alto rendimiento.",
+        "stock": 20,
+        "categoria": "Deportes"
+    },
+    {
+        "id": 50,
+        "nombre": "El Principito",
+        "precio": 20,
+        "imagen": "https://tienda.planetadelibros.com.ar/cdn/shop/products/portada_el-principito_antoine-de-saint-exupery_201507152131.jpg?v=1684356025",
+        "descripcion": "Un clásico de la literatura que explora temas de amistad y amor a través de los ojos de un niño.",
+        "stock": 50,
+        "categoria": "Libros"
+    },
+    {
+        "id": 51,
+        "nombre": "1984 - George Orwell",
+        "precio": 25,
+        "imagen": "https://acdn.mitiendanube.com/stores/001/029/689/products/19841-039a8c5f61dee95ec316324958058653-1024-1024.png",
+        "descripcion": "Una obra maestra distópica que examina el totalitarismo y la censura.",
+        "stock": 40,
+        "categoria": "Libros"
+    },
+    {
+        "id": 52,
+        "nombre": "Harry Potter y la Piedra Filosofal",
+        "precio": 30,
+        "imagen": "https://data.livriz.com/media/MediaSpace/F9AFB48D-741D-4834-B760-F59344EEFF34/45/6cb2c182-bad2-4106-b5d4-e95ea74aa22b/9789878000107.jpg",
+        "descripcion": "La primera entrega de la saga mágica que cautivó a millones.",
+        "stock": 35,
+        "categoria": "Libros"
+    },
+    {
+        "id": 53,
+        "nombre": "Cien Años de Soledad",
+        "precio": 28,
+        "imagen": "https://images.pagina12.com.ar/styles/width960/public/2024-11/893187-gdoj-udxaaawcfw.jpg?itok=Cf8knTHG",
+        "descripcion": "La obra maestra de Gabriel García Márquez que relata la historia de la familia Buendía.",
+        "stock": 30,
+        "categoria": "Libros"
+    },
+    {
+        "id": 54,
+        "nombre": "Don Quijote de la Mancha",
+        "precio": 35,
+        "imagen": "https://images-na.ssl-images-amazon.com/images/I/61HOpyVqSeL.jpg",
+        "descripcion": "El clásico español de Miguel de Cervantes sobre las aventuras del caballero andante.",
+        "stock": 25,
+        "categoria": "Libros"
+    },
+    {
+        "id": 55,
+        "nombre": "El Hobbit",
+        "precio": 27,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZDPdd3YStV-DneOXYSFzyw2OObSrzOURwuw&s",
+        "descripcion": "La precuela de El Señor de los Anillos que relata las aventuras de Bilbo Bolsón.",
+        "stock": 40,
+        "categoria": "Libros"
+    },
+    {
+        "id": 56,
+        "nombre": "El Alquimista",
+        "precio": 22,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxoERl_fQgRTT8qziR6SA8UbR-ZFxGO5XkUg&s",
+        "descripcion": "La famosa obra de Paulo Coelho sobre seguir los sueños y encontrar el destino.",
+        "stock": 45,
+        "categoria": "Libros"
+    },
+    {
+        "id": 57,
+        "nombre": "Juego de Tronos",
+        "precio": 40,
+        "imagen": "https://pics.filmaffinity.com/game_of_thrones-293142110-mmed.jpg",
+        "descripcion": "El primer libro de la saga de fantasía épica Canción de Hielo y Fuego.",
+        "stock": 20,
+        "categoria": "Libros"
+    },
+    {
+        "id": 58,
+        "nombre": "Los Juegos del Hambre",
+        "precio": 26,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BMjIwMDkwZjUtMGU0ZC00NGQ5LWJhMWUtNWZjZDFjZjU2NTZiXkEyXkFqcGc@._V1_.jpg",
+        "descripcion": "Una emocionante novela distópica que narra la lucha por la supervivencia.",
+        "stock": 35,
+        "categoria": "Libros"
+    },
+    {
+        "id": 59,
+        "nombre": "Orgullo y Prejuicio",
+        "precio": 24,
+        "imagen": "https://pics.filmaffinity.com/Orgullo_y_prejuicio-629327318-large.jpg",
+        "descripcion": "La obra de Jane Austen que explora el amor y las diferencias sociales en la Inglaterra del siglo XIX.",
+        "stock": 50,
+        "categoria": "Libros"
+    },
+    {
+        "id": 60,
+        "nombre": "Manzanas Orgánicas",
+        "precio": 5,
+        "imagen": "https://rodaleinstitute.org/wp-content/uploads/Apples-2-600x400.jpg",
+        "descripcion": "Manzanas frescas y orgánicas, ideales para una merienda saludable.",
+        "stock": 100,
+        "categoria": "Alimentos"
+    },
+    {
+        "id": 61,
+        "nombre": "Pan Integral",
+        "precio": 3,
+        "imagen": "https://images.mrcook.app/recipe-image/0192ce17-5bfb-7a04-83df-07343a9bd881",
+        "descripcion": "Pan elaborado con harina 100% integral, perfecto para desayunos nutritivos.",
+        "stock": 50,
+        "categoria": "Alimentos"
+    },
+    {
+        "id": 62,
+        "nombre": "Leche Descremada",
+        "precio": 4,
+        "imagen": "https://f2h.shop/media/catalog/product/cache/ab45d104292f1bb63d093e6be8310c97/i/m/imageedit_1_8002395635.png",
+        "descripcion": "Leche descremada de alta calidad, rica en calcio y vitaminas.",
+        "stock": 80,
+        "categoria": "Alimentos"
+    },
+    {
+        "id": 63,
+        "nombre": "Café Molido Premium",
+        "precio": 10,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_959220-MLA50552141359_072022-O.webp",
+        "descripcion": "Café molido 100% arábica, con un aroma y sabor inigualables.",
+        "stock": 60,
+        "categoria": "Alimentos"
+    },
+    {
+        "id": 64,
+        "nombre": "Aceite de Oliva Extra Virgen",
+        "precio": 15,
+        "imagen": "https://www.lacoopeencasa.coop/media/lcec/publico/articulos/9/2/b/92b40fd0f351870184f48e99c5765a3a",
+        "descripcion": "Aceite de oliva extra virgen de primera prensada en frío.",
+        "stock": 40,
+        "categoria": "Alimentos"
+    },
+    {
+        "id": 65,
+        "nombre": "Huevos de Granja",
+        "precio": 6,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS90GUQBb3eQSSW4hqKQe_EElwMTHBo6mWhCQ&s",
+        "descripcion": "Huevos frescos de gallinas criadas al aire libre.",
+        "stock": 90,
+        "categoria": "Alimentos"
+    },
+    {
+        "id": 66,
+        "nombre": "Arroz Integral",
+        "precio": 7,
+        "imagen": "https://cdn0.uncomo.com/es/posts/1/2/7/como_cocinar_arroz_integral_23721_paso_1_600.jpg",
+        "descripcion": "Arroz integral rico en fibra, ideal para comidas balanceadas.",
+        "stock": 70,
+        "categoria": "Alimentos"
+    },
+    {
+        "id": 67,
+        "nombre": "Pasta de Trigo Duro",
+        "precio": 8,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_757717-MLA44347438442_122020-O.webp",
+        "descripcion": "Pasta italiana elaborada con trigo duro de alta calidad.",
+        "stock": 75,
+        "categoria": "Alimentos"
+    },
+    {
+        "id": 68,
+        "nombre": "Chocolate Negro 70%",
+        "precio": 12,
+        "imagen": "https://thefoodmarketar.vtexassets.com/arquivos/ids/158655/223355_chocolate-amargo-benot-70-cacao-x-100-g_imagen-1.jpg?v=637931481448500000",
+        "descripcion": "Chocolate negro con 70% de cacao, perfecto para los amantes del chocolate puro.",
+        "stock": 50,
+        "categoria": "Alimentos"
+    },
+    {
+        "id": 69,
+        "nombre": "Miel Orgánica",
+        "precio": 14,
+        "imagen": "https://acdn.mitiendanube.com/stores/976/760/products/miel-organica-miel-de-monte-480g-sabor-garabato-4-8858f41e32811bd2f017290211224713-1024-1024.jpg",
+        "descripcion": "Miel orgánica de flores silvestres, ideal para endulzar de forma natural.",
+        "stock": 45,
+        "categoria": "Alimentos"
+    },
+    {
+        "id": 70,
+        "nombre": "Cama para Perro",
+        "precio": 40,
+        "imagen": "https://static.miscota.com/media/1/photos/products/511258/Cama-Viscoelastica-Memor-One-para-Perro-64bfa7dd9771d_g.webp",
+        "descripcion": "Cómoda y suave cama para perros de todos los tamaños.",
+        "stock": 25,
+        "categoria": "Mascotas"
+    },
+    {
+        "id": 71,
+        "nombre": "Comida para Gatos",
+        "precio": 20,
+        "imagen": "https://www.whiskas.com.ar/cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf4921/files/2022-12/7797453973090-product-image-1.png",
+        "descripcion": "Alimento balanceado para gatos con alto contenido de proteínas.",
+        "stock": 50,
+        "categoria": "Mascotas"
+    },
+    {
+        "id": 72,
+        "nombre": "Juguete para Perros",
+        "precio": 15,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_658191-MLA31787987586_082019-O.webp",
+        "descripcion": "Juguete de goma resistente para perros, ideal para masticar.",
+        "stock": 40,
+        "categoria": "Mascotas"
+    },
+    {
+        "id": 73,
+        "nombre": "Rascador para Gatos",
+        "precio": 35,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_638588-MLA76027676425_042024-O.webp",
+        "descripcion": "Rascador con varias alturas para que los gatos afilen sus uñas.",
+        "stock": 20,
+        "categoria": "Mascotas"
+    },
+    {
+        "id": 74,
+        "nombre": "Pecera con Accesorios",
+        "precio": 60,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_989624-MLA74155041028_012024-O.webp",
+        "descripcion": "Pecera de vidrio con filtro y decoración incluida.",
+        "stock": 10,
+        "categoria": "Mascotas"
+    },
+    {
+        "id": 75,
+        "nombre": "Transportadora para Mascotas",
+        "precio": 45,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_699458-MLA44518698632_012021-O.webp",
+        "descripcion": "Transportadora segura y cómoda para llevar a tu mascota a cualquier lugar.",
+        "stock": 15,
+        "categoria": "Mascotas"
+    },
+    {
+        "id": 76,
+        "nombre": "Collar con Identificación",
+        "precio": 12,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdABsP4tweRWIf7xHvtuhHtDqC4M9veUNA9Q&s",
+        "descripcion": "Collar ajustable con placa de identificación grabada.",
+        "stock": 60,
+        "categoria": "Mascotas"
+    },
+    {
+        "id": 77,
+        "nombre": "Arena para Gatos",
+        "precio": 18,
+        "imagen": "https://nutrican.com.ar/wp-content/uploads/2021/08/0551260.jpeg",
+        "descripcion": "Arena aglomerante para gatos con control de olores.",
+        "stock": 50,
+        "categoria": "Mascotas"
+    },
+    {
+        "id": 78,
+        "nombre": "Hueso de Juguete",
+        "precio": 10,
+        "imagen": "https://d28hi93gr697ol.cloudfront.net/071e89ac-46a5-8ab3/img/Producto/1947/01-1621359733-63212adf0f070.jpeg",
+        "descripcion": "Hueso de juguete duradero para perros de todas las razas.",
+        "stock": 70,
+        "categoria": "Mascotas"
+    },
+    {
+        "id": 79,
+        "nombre": "Cepillo para Mascotas",
+        "precio": 22,
+        "imagen": "https://acdn.mitiendanube.com/stores/003/023/452/products/pack-ahorro-9bae616af81f9c657717259359399304-1024-1024.png",
+        "descripcion": "Cepillo especial para eliminar el pelo suelto y mantener el pelaje saludable.",
+        "stock": 30,
+        "categoria": "Mascotas"
+    },
+    {
+        "id": 80,
+        "nombre": "Set de Brochas de Maquillaje",
+        "precio": 30,
+        "imagen": "https://acdn.mitiendanube.com/stores/983/071/products/cafe-105-1-11-c66fa354aea9d73a1816953213687591-640-0.jpg",
+        "descripcion": "Juego de brochas de maquillaje de alta calidad con cerdas suaves.",
+        "stock": 40,
+        "categoria": "Belleza"
+    },
+    {
+        "id": 81,
+        "nombre": "Labial Mate Rojo",
+        "precio": 20,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_963921-MLA72960113772_112023-O.webp",
+        "descripcion": "Labial mate de larga duración en un tono rojo intenso.",
+        "stock": 60,
+        "categoria": "Belleza"
+    },
+    {
+        "id": 82,
+        "nombre": "Crema Hidratante Facial",
+        "precio": 35,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSULxHRIs-0MkDF8C62RMjU3_xkLTqekh4QsA&s",
+        "descripcion": "Crema facial hidratante con ingredientes naturales para una piel suave.",
+        "stock": 30,
+        "categoria": "Belleza"
+    },
+    {
+        "id": 83,
+        "nombre": "Esmalte de Uñas",
+        "precio": 15,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_643493-MLA69889538945_062023-O.webp",
+        "descripcion": "Esmalte de uñas de secado rápido y colores vibrantes.",
+        "stock": 50,
+        "categoria": "Belleza"
+    },
+    {
+        "id": 84,
+        "nombre": "Perfume Floral",
+        "precio": 50,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_850915-MLA43581289542_092020-O.webp",
+        "descripcion": "Perfume con aroma floral duradero y fresco.",
+        "stock": 25,
+        "categoria": "Belleza"
+    },
+    {
+        "id": 85,
+        "nombre": "Paleta de Sombras",
+        "precio": 40,
+        "imagen": "https://acdn.mitiendanube.com/stores/002/303/550/products/img_2838-f22d4c384b81af9fc717040247608643-1024-1024.jpeg",
+        "descripcion": "Paleta de sombras con una variedad de colores altamente pigmentados.",
+        "stock": 35,
+        "categoria": "Belleza"
+    },
+    {
+        "id": 86,
+        "nombre": "Cepillo Facial Eléctrico",
+        "precio": 60,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_955862-MLU71227894373_082023-O.webp",
+        "descripcion": "Cepillo de limpieza facial con vibración sónica para eliminar impurezas.",
+        "stock": 20,
+        "categoria": "Belleza"
+    },
+    {
+        "id": 87,
+        "nombre": "Mascarilla Facial de Arcilla",
+        "precio": 25,
+        "imagen": "https://acdn.mitiendanube.com/stores/879/239/products/281818644_1052802842110946_4740126222463861044_n1-05991a270afa61822616854789151116-1024-1024.jpg",
+        "descripcion": "Mascarilla facial de arcilla para limpiar y purificar la piel.",
+        "stock": 45,
+        "categoria": "Belleza"
+    },
+    {
+        "id": 88,
+        "nombre": "Aceite para el Cabello",
+        "precio": 28,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5f9XitI9ybr_cR21Txzf1KCnb8hLaa_8saw&s",
+        "descripcion": "Aceite nutritivo para el cabello con ingredientes naturales.",
+        "stock": 38,
+        "categoria": "Belleza"
+    },
+    {
+        "id": 89,
+        "nombre": "Rímel Voluminizador",
+        "precio": 22,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4Ffm7aBRIghr0n_muFHrn2vmugOgGbiikrQ&s",
+        "descripcion": "Máscara de pestañas con efecto voluminizador y resistente al agua.",
+        "stock": 55,
+        "categoria": "Belleza"
+    },
+    {
+        "id": 90,
+        "nombre": "Smartphone Android",
+        "precio": 500,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6W_TzlkEIXjLJSkFw8J1KPzQMWWqGCqWB1A&s",
+        "descripcion": "Teléfono inteligente con pantalla Full HD y cámara de alta resolución.",
+        "stock": 25,
+        "categoria": "Tecnología"
+    },
+    {
+        "id": 91,
+        "nombre": "Laptop Ultrabook",
+        "precio": 900,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_977574-MLA77407724679_072024-O.webp",
+        "descripcion": "Portátil ultradelgado con procesador de última generación y batería de larga duración.",
+        "stock": 15,
+        "categoria": "Tecnología"
+    },
+    {
+        "id": 92,
+        "nombre": "Auriculares Inalámbricos",
+        "precio": 120,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_896099-MLA79173274650_092024-O.webp",
+        "descripcion": "Auriculares Bluetooth con cancelación de ruido y sonido envolvente.",
+        "stock": 40,
+        "categoria": "Tecnología"
+    },
+    {
+        "id": 93,
+        "nombre": "Smartwatch Deportivo",
+        "precio": 180,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6g-w1NVk8-_FdRMBhozMRiT8NOTFYATigKA&s",
+        "descripcion": "Reloj inteligente con monitor de frecuencia cardíaca y resistencia al agua.",
+        "stock": 30,
+        "categoria": "Tecnología"
+    },
+    {
+        "id": 94,
+        "nombre": "Tablet 10 Pulgadas",
+        "precio": 300,
+        "imagen": "https://philco.com.ar/media/catalog/product/cache/c8f6a96bef9e9f64cd4973587df2520f/t/p/tp10a332_icfbso0002_1_.jpg",
+        "descripcion": "Tablet de 10 pulgadas con pantalla táctil HD y gran capacidad de almacenamiento.",
+        "stock": 20,
+        "categoria": "Tecnología"
+    },
+    {
+        "id": 95,
+        "nombre": "Cámara Fotográfica Digital",
+        "precio": 700,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTWGBDmnn14zFgYHAP6px8ufHJ5qYEGculmA&s",
+        "descripcion": "Cámara profesional con lente intercambiable y grabación en 4K.",
+        "stock": 10,
+        "categoria": "Tecnología"
+    },
+    {
+        "id": 96,
+        "nombre": "Teclado Mecánico RGB",
+        "precio": 80,
+        "imagen": "https://acdn.mitiendanube.com/stores/001/231/930/products/04120856_01tecladoxk10001-b2ebd68ad78eab43f816599660965915-1024-1024.jpg",
+        "descripcion": "Teclado mecánico con retroiluminación RGB y switches táctiles.",
+        "stock": 50,
+        "categoria": "Tecnología"
+    },
+    {
+        "id": 97,
+        "nombre": "Monitor LED 24 Pulgadas",
+        "precio": 250,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiuKOyGv2L7ROUp082_abIwFx6TbFE4o6OMg&s",
+        "descripcion": "Monitor LED Full HD de 24 pulgadas con tecnología antirreflejo.",
+        "stock": 18,
+        "categoria": "Tecnología"
+    },
+    {
+        "id": 98,
+        "nombre": "Router WiFi de Alta Velocidad",
+        "precio": 130,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_771853-MLA80311858033_102024-O.webp",
+        "descripcion": "Router de doble banda con amplio alcance y conexión estable.",
+        "stock": 35,
+        "categoria": "Tecnología"
+    },
+    {
+        "id": 99,
+        "nombre": "Disco Duro Externo 1TB",
+        "precio": 90,
+        "imagen": "https://images.fravega.com/f300/fcc57503d62ad74896f6f65372725874.jpg.webp",
+        "descripcion": "Almacenamiento portátil de 1TB con conexión USB 3.0.",
+        "stock": 45,
+        "categoria": "Tecnología"
     }
 ]

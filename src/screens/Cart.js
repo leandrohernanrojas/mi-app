@@ -73,7 +73,6 @@ const styles = StyleSheet.create({
   },
   text:{
     fontSize:15,
-    // backgroundColor:color.button,
     padding:10,
     borderRadius:5,
     fontFamily:"Besley"

@@ -1,4 +1,3 @@
-import { StyleSheet, Text, View } from 'react-native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import Header from '../components/Header'
 import MyProfile from '../screens/MyProfile'

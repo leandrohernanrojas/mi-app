@@ -24,16 +24,16 @@ export default CardItemCategory
 const styles = StyleSheet.create({
     container: {
         backgroundColor: color.primario,
-        // alignItems:"flex-start",
         elevation: 9,
         marginHorizontal: 15,
         marginVertical: 10,
         padding: 2,
         alignItems: "center",
+        borderRadius:5
     },
     text: {
         fontSize: 15,
-        padding: "10",
+        padding: 15,
         fontFamily:"Berkshire"
     }
 })

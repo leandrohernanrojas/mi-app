@@ -4,6 +4,7 @@ import SubmitButton from '../components/SubmitButton'
 import { useNavigation } from '@react-navigation/native'
 import { useGetUserQuery } from '../seervices/user'
 import { useSelector } from 'react-redux'
+import { color } from '../Global/colors'
 
 
 const MyProfile = () => {
@@ -34,13 +35,14 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        backgroundColor:color.fondo
     },
     image: {
-        width: 100,
-        height: 100,
-        borderRadius: 50,
-        marginBottom: 20
+        width: 200,
+        height: 200,
+        borderRadius: 100,
+        marginBottom: 50
     },
 
 })

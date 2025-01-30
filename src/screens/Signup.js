@@ -95,7 +95,8 @@ export default Signup
 
 const styles = StyleSheet.create({
     main: {
-        marginTop: 100
+        flex:1,
+justifyContent:"center"
     },
     container: {
         backgroundColor: color.card,
@@ -112,13 +113,11 @@ const styles = StyleSheet.create({
     },
     sub: {
         textAlign: "center",
-        color: color.texto,
         fontFamily: "Nunito"
     },
     subLink: {
         marginTop: 15,
         textAlign: "center",
-        color: color.link,
         fontFamily: "Nunito"
     },
 })

@@ -82,7 +82,8 @@ export default Login
 
 const styles = StyleSheet.create({
     main: {
-        marginTop: 100
+        flex:1,
+        justifyContent:"center"
     },
     container: {
         backgroundColor: color.card,
@@ -98,13 +99,12 @@ const styles = StyleSheet.create({
         fontFamily: "Berkshire",
     },
     sub: {
+        margin:10,
         textAlign: "center",
-        color: color.texto,
         fontFamily: "Nunito"
     },
     subLink: {
         textAlign: "center",
-        color: color.link,
         fontFamily: "Nunito"
     },
 })

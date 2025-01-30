@@ -39,9 +39,6 @@ const Navigator = () => {
 }
 
 
-const styles = StyleSheet.create({
-
-
-})
+const styles = StyleSheet.create({})
 
 export default Navigator

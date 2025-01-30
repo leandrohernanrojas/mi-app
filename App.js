@@ -1,13 +1,11 @@
-
-import {  StatusBar, StyleSheet} from 'react-native';
+import {  StatusBar, StyleSheet, View} from 'react-native';
 import { color } from './src/Global/colors';
 import { useFonts } from 'expo-font';
 import { fonts } from './src/Global/fonts';
 import Navegator from './src/navigation/Navigator';
 import { Provider } from 'react-redux';
 import {store} from "./src/store"
-import { init } from './src/config/dbSqlite';
-import { useEffect } from 'react';
+
 
 
 export default function App() {
@@ -23,11 +21,11 @@ export default function App() {
       <Provider store={store}>
         <Navegator />
       </Provider>
-
       <StatusBar backgroundColor={color.secundario} />
     </>
   );
 }
 
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+});

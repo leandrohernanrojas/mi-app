@@ -8,8 +8,7 @@ const InputForm = ({ label, value, onChangeText, isSecure, error }) => {
         <View style={styles.container}>
             <Text style={styles.text}>{label}</Text>
             <TextInput value={value} onChangeText={onChangeText} style={styles.input} secureTextEntry={isSecure} />
-            {error ? <View style={styles.error}><Text style={styles.error}>{error}</Text></View> : null}
-            
+            <View style={styles.error}>{error ? <Text style={styles.error}>{error}</Text> : ""}</View>
         </View>
     )
 }
@@ -19,7 +18,6 @@ export default InputForm
 const styles = StyleSheet.create({
     container: {
         width: "100%",
-        // margin: 15,
         padding: 10,
     },
     text: {
@@ -34,6 +32,7 @@ const styles = StyleSheet.create({
     error:{
         color:"red",
         fontSize:12,
+        height:20
     }
 
 })

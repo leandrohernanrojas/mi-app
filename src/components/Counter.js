@@ -1,23 +1,44 @@
-import { useState } from 'react'
-import { Button, StyleSheet, Text, TextInput, View } from 'react-native'
-import { useDispatch, useSelector } from 'react-redux'
-import { counterSlice, decrement, increment,incrementByAmount } from '../features/counterSlice'
+import { StyleSheet, Text, View, Button, Pressable } from 'react-native'
+import { color } from '../Global/colors'
 
-const Counter = () => {
-    const [input,setInput] = useState (0)
-    const counter = useSelector(state => state.counter.value)
-    const dispatch = useDispatch()
+
+const Counter = ({ quantity, increment, decrement }) => {
+
+
+
     return (
-        <View>
-            <Button title="-" onPress={() => dispatch(decrement())} />
-            <Text>{counter}</Text>
-            <Button title="+" onPress={() => dispatch(increment())} />
-            <TextInput value={input} onChangeText={(t)=> setInput(parseInt(t))}/>
-            <Button title="cambiar" onPress={()=> dispatch(incrementByAmount(input))}/>
+        <View style={styles.container}>
+            <Pressable style={styles.button} onPress={decrement}>
+                <Text style={styles.textButton}>-</Text>
+            </Pressable>
+            <Text style={styles.text}>{quantity}</Text>
+            <Pressable style={styles.button} onPress={increment}>
+                <Text style={styles.textButton}>+</Text>
+            </Pressable>
+
         </View>
     )
 }
 
 export default Counter
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    container: {
+        flexDirection: "row",
+        justifyContent: "flex-end",
+        margin: 10,
+        alignItems: "center",
+        gap: 20,
+    },
+
+    button: {
+        backgroundColor: color.button,
+        width: 40,
+        padding: 10,
+        borderRadius: 5,
+        alignItems: "center"
+    },
+    textButton: {
+        fontSize: 20
+    },
+})
