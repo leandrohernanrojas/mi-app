@@ -21,7 +21,6 @@ const Navigator = () => {
         await init()
         dispatch(deleteUser())
         const sessionUser = await fetchSession()
-        console.log(sessionUser)
         if (sessionUser) {
           dispatch(setUser(sessionUser))
         }

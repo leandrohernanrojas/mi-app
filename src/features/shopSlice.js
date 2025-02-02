@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import productos from "../data/productos.json"
+import productos from "../data/productos.json";
 import categorias from "../data/categorias.json"
 
 export const shopSlice = createSlice({

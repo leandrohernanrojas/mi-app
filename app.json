@@ -4,7 +4,7 @@
     "slug": "mi-aplicacion",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/img/logo-md.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -17,7 +17,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/img/logo-md.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.leandro999.miaplicacion"
@@ -30,7 +30,7 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "b6a48cca-8f97-4284-b1d2-81912e1c7766"
+        "projectId": "ed21d76b-e4ea-4abd-90fa-41462ce885ce"
       }
     }
   }

@@ -898,5 +898,95 @@
         "descripcion": "Almacenamiento portátil de 1TB con conexión USB 3.0.",
         "stock": 45,
         "categoria": "Tecnología"
+    },
+    {
+        "id": 100,
+        "nombre": "Llantas Deportivas 17 Pulgadas",
+        "precio": 400,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_798939-MLA40983415596_032020-O.webp",
+        "descripcion": "Juego de 4 llantas deportivas de 17 pulgadas con diseño aerodinámico.",
+        "stock": 15,
+        "categoria": "Automóviles"
+    },
+    {
+        "id": 101,
+        "nombre": "Batería para Auto 12V",
+        "precio": 150,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_716855-MLA32085259724_092019-O.webp",
+        "descripcion": "Batería de 12V de alto rendimiento para autos y camionetas.",
+        "stock": 20,
+        "categoria": "Automóviles"
+    },
+    {
+        "id": 102,
+        "nombre": "Aceite de Motor Sintético 5W-30",
+        "precio": 50,
+        "imagen": "https://www.mysrepuestostoyota.com.ar/wp-content/uploads/2021/05/ACEITE-SINTETICO-5W30-MOBIL1-e1634826196213.jpg",
+        "descripcion": "Aceite sintético de alta calidad para mejorar el rendimiento del motor.",
+        "stock": 40,
+        "categoria": "Automóviles"
+    },
+    {
+        "id": 103,
+        "nombre": "Cámara de Reversa",
+        "precio": 100,
+        "imagen": "https://acdn.mitiendanube.com/stores/001/990/269/products/a-9d79fcd1ed2759a1f317218252909356-1024-1024.jpg",
+        "descripcion": "Cámara de reversa con visión nocturna y pantalla HD.",
+        "stock": 25,
+        "categoria": "Automóviles"
+    },
+    {
+        "id": 104,
+        "nombre": "Cargador de Auto USB",
+        "precio": 20,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYQyM05t3JvZmGMxqVK-6onCvnVh06ze25ng&s",
+        "descripcion": "Cargador de auto con dos puertos USB y carga rápida.",
+        "stock": 60,
+        "categoria": "Automóviles"
+    },
+    {
+        "id": 105,
+        "nombre": "Kit de Luces LED para Auto",
+        "precio": 80,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_869943-MLA54583680209_032023-O.webp",
+        "descripcion": "Luces LED de alta potencia para mejorar la visibilidad nocturna.",
+        "stock": 30,
+        "categoria": "Automóviles"
+    },
+    {
+        "id": 106,
+        "nombre": "Alfombrillas de Goma para Auto",
+        "precio": 60,
+        "imagen": "https://http2.mlstatic.com/D_Q_NP_2X_685209-MLA76195258404_052024-T.webp",
+        "descripcion": "Juego de 4 alfombrillas de goma resistentes y fáciles de limpiar.",
+        "stock": 50,
+        "categoria": "Automóviles"
+    },
+    {
+        "id": 107,
+        "nombre": "Soporte para Celular en Auto",
+        "precio": 25,
+        "imagen": "https://images.bidcom.com.ar/resize?src=https://static.bidcom.com.ar/publicacionesML/productos/SOPCEL07/1000x1000-SOPCEL07.jpg&w=800&q=100",
+        "descripcion": "Soporte ajustable para teléfono móvil con base magnética.",
+        "stock": 70,
+        "categoria": "Automóviles"
+    },
+    {
+        "id": 108,
+        "nombre": "Cera para Auto",
+        "precio": 30,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_905738-MLA41844223018_052020-O.webp",
+        "descripcion": "Cera protectora para dar brillo y protección a la pintura del auto.",
+        "stock": 35,
+        "categoria": "Automóviles"
+    },
+    {
+        "id": 109,
+        "nombre": "Compresor de Aire Portátil",
+        "precio": 120,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_790877-MLA43427543263_092020-O.webp",
+        "descripcion": "Compresor portátil para inflar neumáticos de manera rápida y eficiente.",
+        "stock": 22,
+        "categoria": "Automóviles"
     }
 ]
